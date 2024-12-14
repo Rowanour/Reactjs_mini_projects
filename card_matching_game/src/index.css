@@ -1,0 +1,94 @@
+
+:root {
+  --1: #92DAD9;
+  --2: #DCEBEB;
+  --3: #F7E2E1;
+  --4: #ECA4A4;
+  --5: #AC6869;
+  background-image: url('./assets/bg2.jpg');
+  background-color: var(--5);
+  background-size: cover;
+  height: 100%;
+}
+
+.contain {
+  background-color: #ac68697d;
+  border: 1px solid #AC6869;
+  width: 700px;
+  height: 500px;
+  border-radius: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  backdrop-filter: blur(1px);
+}
+
+.welcome
+{
+  font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+  font-size: 60px;
+  margin-bottom: 0%;
+  color: var(--1);
+}
+.memorize
+{
+  font-family: "Playwrite AU TAS", cursive;
+  font-optical-sizing: auto;
+  font-size: 60px;
+  margin-top: 0%;
+  color: #ffffff;
+}
+
+.icon
+{
+  width: 250px;
+  position: absolute;
+  top: 10%;
+  left: 70%;
+}
+
+@keyframes logo-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .icon {
+    animation: logo-spin infinite 2s linear;
+  }
+}
+
+.text {
+  font-size: 24px;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+}
+
+.button
+{
+  font-size: 24px;
+  color: white;
+  font-family: "Playwrite AU TAS", cursive;
+  font-weight: bolder;
+  font-optical-sizing: auto;
+  background: #ECA4A4;
+  padding: 10px;
+  width: 100px;
+  position: absolute;
+  top: 70%;
+  left: 47%;
+  box-shadow: 5px 5px 5px black;
+  border-radius: 20px;
+  cursor: pointer;
+}

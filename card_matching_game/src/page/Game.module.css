@@ -1,0 +1,58 @@
+.grid 
+{
+    background-color: #cb94e84d;
+    border: 1px solid #AC6869;
+    width: 1000px;
+    height: 500px;
+    border-radius: 50px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(1px);
+    padding: 30px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    place-items: center;
+    position: absolute;
+    top: 38%;
+  }
+
+
+  .card img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+
+}
+
+.card img:hover {
+    box-shadow: 4px 4px 8px rgba(0, 7, 18, 0.6);
+}
+
+
+  
+  .button
+  {
+    font-size: 24px;
+    color: white;
+    font-family: "Playwrite AU TAS", cursive;
+    font-weight: bolder;
+    font-optical-sizing: auto;
+    background: #9535ef7a;
+    padding: 10px;
+    width: 200px;
+    position: absolute;
+    top: 85%;
+    left: 47%;
+    box-shadow: 5px 5px 5px black;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  
